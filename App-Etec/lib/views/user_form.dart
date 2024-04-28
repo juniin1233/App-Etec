@@ -90,6 +90,7 @@ class UserForm extends StatelessWidget {
                   if (value == null || value.isEmpty) {
                     return "Nome não inserido";
                   }
+                  return null;
                 },
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
