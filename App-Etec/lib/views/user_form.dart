@@ -6,6 +6,7 @@ import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import '../provider/users.dart';
 import '../routes/app_routes.dart';
 
+// ignore: must_be_immutable
 class UserForm extends StatelessWidget {
   UserForm({super.key});
 
@@ -114,6 +115,7 @@ class UserForm extends StatelessWidget {
                   if (value == null || value.isEmpty) {
                     return "Número não inserido";
                   }
+                  return null;
                 },
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
