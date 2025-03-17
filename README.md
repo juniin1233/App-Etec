@@ -1,2 +1,2 @@
 # App Etec
- Aplicativo desenvolvido para divulgação do vestibulinho da Etec oiii
+ Aplicativo desenvolvido para divulgação do vestibulinho da Etec
